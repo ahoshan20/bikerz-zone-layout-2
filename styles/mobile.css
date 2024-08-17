@@ -1,0 +1,110 @@
+
+.overlay{
+    background-color: #264653;
+}
+.containar{
+    width: 100%;
+}
+.logo{
+    display: none;
+}
+.navbar{
+    flex-direction: column;
+
+}
+.menubar .menu{
+    flex-direction: column;
+    justify-items: center;
+
+}
+.menubar .menu li a{
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 120px;
+}
+.menubar .menu li:hover{
+    background-color: #E76F51;
+}
+.menubar .menu li{
+    font-size: 24px;
+    padding: 10px 0;
+    border: 1px solid #E76F51;
+    border-radius: 10px;
+
+}
+.menubar .menu li:last-child{
+    display: none;
+
+}
+/* .menubar .menu li:last-child:hover{
+    background-color: #26465365;
+}
+.menubar .menu li:last-child a{
+    font-size: 36px;
+    background-color: transparent;
+} */
+.bannar-section{
+    flex-direction: column;
+}
+.text-section{
+    width: 100%;
+    padding: 0;
+}
+.text-section .bannar-heaeder{
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+   
+}
+.text-section .bannar-description{
+    padding: 0;
+}
+.main-section .feture-header, .latest-bike-section-header h2, .client-reviwe-header h2,.frequently-section-header h2{
+    font-size: 25px;
+    text-align: center;
+
+}
+.feture-section{
+    flex-direction: column;
+    gap: 200px;
+    align-items: center;
+}
+.bike-cards{
+   flex-direction: column;
+   
+}
+.reviwe-cards{
+   flex-direction: column;
+   align-items: center;
+}
+.frequently-section-container{
+   flex-direction: column;
+   align-items: center;
+}
+
+.content{
+    justify-content: center;
+    width: 100%;
+}
+.asked-questions{
+    width: 100%;
+}
+.information{
+    padding: 80px 55px 0 55px;
+}
+.detels{
+    margin: 0;
+    flex-direction: column;
+}
+ul{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+.get-app{
+    margin: 30px 0 80px 0;
+}
+.apple{
+    margin-bottom: 10px;
+}
