@@ -2,49 +2,54 @@
 .overlay{
     background-color: #264653;
 }
-.containar{
+.container{
     width: 100%;
 }
+
 .logo{
     display: none;
 }
 .navbar{
+    padding-bottom: 30px;
     flex-direction: column;
+    background-color: #010d11c2;
 
+}
+#menu-icon{
+    display: block;
+    cursor: pointer;
+}
+.hidden{
+    display: none;
 }
 .menubar .menu{
     flex-direction: column;
-    justify-items: center;
-
+    align-items: center;
+}
+.menu li{
+    width: 100%;
+    padding: 10px 0;
+    border: 1px solid #e76f5183;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px 2px #000000b2;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+.menu li:hover{
+    background-color: #264653;
+    border: 1px solid transparent;
 }
 .menubar .menu li a{
     font-size: 24px;
-    text-align: center;
-    padding: 10px 120px;
+    padding: 10px 150px;
 }
-.menubar .menu li:hover{
-    background-color: #E76F51;
+.login-btn{
+    margin-top: 40px;
 }
-.menubar .menu li{
-    font-size: 24px;
-    padding: 10px 0;
-    border: 1px solid #E76F51;
-    border-radius: 10px;
-
-}
-.menubar .menu li:last-child{
-    display: none;
-
-}
-/* .menubar .menu li:last-child:hover{
-    background-color: #26465365;
-}
-.menubar .menu li:last-child a{
-    font-size: 36px;
-    background-color: transparent;
-} */
-.bannar-section{
-    flex-direction: column;
+.login-btn a{
+    margin: 0;
+    font-size: 28px;
+    padding: 12px 40px;
 }
 .text-section{
     width: 100%;
@@ -80,6 +85,7 @@
 .frequently-section-container{
    flex-direction: column;
    align-items: center;
+   margin-bottom: 150px;
 }
 
 .content{

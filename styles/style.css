@@ -58,30 +58,35 @@ ul li{
     color: #ffffff;
 
 }
+#menu-icon{
+    display: none;
+    color: #ffffff;
+}
 .menubar .menu{
     display: flex;
-    gap: 10px;
+    gap: 15px;
     align-items: center;
 }
 .menubar .menu li a{
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
     font-family: "Poppins", sans-serif;
     color: rgb(255, 255, 255);
     text-transform: capitalize;
     padding: 8px 18px;
-    border-radius: 5px;
 }
-.menubar .menu li:last-child a{
+.login-btn a{
     padding: 10px 24px;
     margin-left: 15px;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 600;
     color: rgb(255, 255, 255);
     background-color: #E76F51;
+    border-radius: 5px;
+
 }
-.menubar .menu li:last-child a:hover{
-    background-color: #0aadee;
+.login-btn a:hover{
+    background-color: #244a58;
 }
 /* bannar style  */
 .bannar-section{
