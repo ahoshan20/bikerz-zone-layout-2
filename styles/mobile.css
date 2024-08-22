@@ -3,13 +3,14 @@
     background-color: #264653;
 }
 .container{
-    width: 100%;
+    width: 90%;
 }
 
 .logo{
     display: none;
 }
 .navbar{
+    width: 100%;
     padding-bottom: 30px;
     flex-direction: column;
     background-color: #010d11c2;
