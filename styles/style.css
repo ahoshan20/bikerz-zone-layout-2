@@ -25,7 +25,7 @@ ul li{
     nav section style heare 
     ----------------------------- */
 .nav-section{
-    background-image: url(/images/bannar/bannar-image.png);
+    background-image: url(../images/bannar/bannar-image.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 90px;
